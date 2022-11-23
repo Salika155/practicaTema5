@@ -30,8 +30,8 @@
         {
             this.cbUrgente = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTelegrama = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -56,20 +56,20 @@
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtTelegrama
             // 
-            this.textBox1.Location = new System.Drawing.Point(46, 70);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(716, 220);
-            this.textBox1.TabIndex = 2;
+            this.txtTelegrama.Location = new System.Drawing.Point(46, 70);
+            this.txtTelegrama.Multiline = true;
+            this.txtTelegrama.Name = "txtTelegrama";
+            this.txtTelegrama.Size = new System.Drawing.Size(716, 220);
+            this.txtTelegrama.TabIndex = 2;
             // 
-            // textBox2
+            // txtPrecio
             // 
-            this.textBox2.Location = new System.Drawing.Point(105, 355);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 3;
+            this.txtPrecio.Location = new System.Drawing.Point(105, 355);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(100, 23);
+            this.txtPrecio.TabIndex = 3;
             // 
             // label1
             // 
@@ -99,8 +99,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbUrgente);
             this.Name = "Form1";
@@ -114,8 +114,8 @@
 
         private CheckBox cbUrgente;
         private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtTelegrama;
+        private TextBox txtPrecio;
         private Label label1;
         private Label label2;
     }
