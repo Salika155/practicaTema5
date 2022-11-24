@@ -39,7 +39,7 @@
             // cbUrgente
             // 
             this.cbUrgente.AutoSize = true;
-            this.cbUrgente.Location = new System.Drawing.Point(46, 313);
+            this.cbUrgente.Location = new System.Drawing.Point(46, 314);
             this.cbUrgente.Name = "cbUrgente";
             this.cbUrgente.Size = new System.Drawing.Size(68, 19);
             this.cbUrgente.TabIndex = 0;
