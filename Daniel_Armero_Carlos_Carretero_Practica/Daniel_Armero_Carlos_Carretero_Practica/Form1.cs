@@ -20,7 +20,7 @@ namespace Daniel_Armero_Carlos_Carretero_Practica
         private void button1_Click(object sender, EventArgs e)
         {
             string textoTelegrama;
-            char tipoTelegrama = 'o';
+            char tipoTelegrama = ' ';
             int numPalabras = 0;
             double coste;
             //Leo el telegrama
